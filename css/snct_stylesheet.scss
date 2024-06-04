@@ -1,0 +1,51 @@
+/* Scss Document */
+body{
+    font-size: 10px;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    header{
+        nav{
+            &.navbar{
+                font-size: 120%;
+                color: #ffffff;
+                background-color: #763890;
+                &.bg-snct{
+                    background-color: #8e44ad;
+                }
+                a{
+                    color: #ffffff;
+                }
+                .navbar-brand {
+                    img{
+                        max-width: 540px;
+                    } 
+                }
+				.nav-item { 
+					position: relative;
+					.collapsing{
+						transition: none;
+						position: absolute;
+						transition: none;
+						height: auto;
+					}
+					.collapse{ 
+						background-color: #8e44ad;
+						position: absolute;
+						left: 0;
+						.collapse{
+							position: static;
+						}
+						.collapsing{
+							height: 0;
+							position: relative;
+							transition: height 0.35s ease;
+						}
+					}
+				}
+            }
+        }
+    }
+}
+

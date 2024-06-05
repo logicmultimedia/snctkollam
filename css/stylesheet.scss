@@ -44,15 +44,16 @@
     text-shadow: calc(1em/40) calc(1em/40) calc(5em/40) $shadowcolor,calc(1em/40) calc(1em/40) calc(5em/40) $shadowcolor,calc(2em/40) calc(2em/40) calc(5em/40) $shadowcolor,calc(2em/40) calc(2em/40) calc(5em/40) $shadowcolor,calc(2em/40) calc(2em/40) calc(5em/40) $shadowcolor;
 }
 @mixin boxshadow1{
-    box-shadow: inset 4px 5px 5px #ccc;
+    box-shadow: inset 2px 3px 3px rgba(0,0,0,0.25);
     transition: none;
 }
 @mixin linkbtn{
     color: #ffffff; 
     background-color: #8e44ad;
     border: 1px solid #813D9D;
-    outline: none;
+    outline: none; 
     box-shadow: none;
+    border-radius: 0;
 	&:hover, &:focus{ 
 		color: #8e44ad; 
 		background-color: #ffffff;
@@ -60,6 +61,23 @@
 	&:active{
 		color: #401f4e;
 		background-color: #f1f1f1;
+        @include boxshadow1;
+	}
+}
+@mixin linkbtnwhite{
+    color: #8e44ad; 
+    background-color: #ffffff;
+    border: 1px solid #8e44ad;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+	&:hover, &:focus{ 
+		color: #ffffff; 
+		background-color: #8E44AD;
+	}
+	&:active{
+		color: #f1f1f1;
+		background-color: #401F4E;
         @include boxshadow1;
 	}
 }
@@ -274,17 +292,71 @@ body{
                     border: 1px solid rgba(255,255,255,0.45);
                 }
                 p{
-                    
+                    .btn {
+                        font-size: 160%;
+                        &.btn-primary{
+                            font-weight: 700;
+                            padding: calc(15em/16) calc(30em/16);
+                            @include linkbtn; 
+                        }
+                    }
+                }
+            }
+        }
+        #snct_about{
+            padding: 11.3em 0;
+            h2{
+               font-family: "Raleway", sans-serif;
+               font-size: 136%;
+               font-weight: 600;
+               color: #333333;
+               letter-spacing: calc(2em/13.6);
+               display: inline-block;
+               padding: calc(7em/13.6) calc(10em/13.6);
+               margin-bottom: calc(18em/13.6);
+               border: 1px solid rgba(0,0,0,0.45); 
+            }
+            p{
+                font-size: 160%;
+                font-weight: 400;
+                color: #727272;
+                &.text-heading{
+                    font-family: "Raleway", sans-serif;
+                    font-size: 380%;
+                    font-weight: 700;
+                    color: #333333;
+                    line-height: normal;
                 }
                 .btn {
+                    font-size: 100%;
                     &.btn-primary{
-                        font-size: 160%;
                         font-weight: 700;
                         padding: calc(15em/16) calc(30em/16);
-                        @include linkbtn;
-                        border-radius: 0;
-                        border: none;
+                        @include linkbtnwhite;
                     }
+                }
+            }
+            .snct_secn{
+                text-align: left;
+                background-color: #ffffff;
+                display: block;
+                padding: 2em;
+            }
+            .snct_secn_photo{
+                padding-right: 5em;
+            }
+            .snct_secn_spl{
+                text-align: left;
+                background-color: #ffffff;
+                display: block;
+                padding: 2em;
+                border-top: 4px solid #8E44AD; 
+                box-shadow: 0px 0.5em 3em -1em rgba(0, 0, 0, 0.15);
+                margin-top: -50%; 
+                h3{
+                    font-family: "Raleway", sans-serif;
+                    font-size: 230%;
+                    font-weight: 700; 
                 }
             }
         }

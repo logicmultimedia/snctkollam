@@ -5,37 +5,46 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sree Narayana College of Technology</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <!-- Bootstrap -->
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="css/snct_stylesheet.css" rel="stylesheet">
+<link href="css/stylesheet.css" rel="stylesheet">
 </head>
 <body>
 <header>
   <nav class="navbar">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row w-100">
         <div class="col-12 col-sm-6 col-xl-6"><a href="tel:04742723154">0474-2723154</a> | <a href="mailto:principalsnct@gmail.com">principalsnct@gmail.com</a></div>
         <div class="col-12 col-sm-6 col-xl-6 text-right">Mon - Fri : 10.00-17.00</div>
       </div>
     </div>
   </nav>
-  <nav class="navbar navbar-expand-lg bg-snct"> <a class="navbar-brand" href="#"><img src="images/logo.png" width="915" height="229" alt="Sree Narayana College of Technology"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"><a class="nav-link" href="#" data-toggle="collapse" data-target="#home">Home <span class="sr-only">(current)</span></a>
-          <div id="home" class="collapse">
-            <a class="nav-link" href="#" data-toggle="collapse" data-target="#Departments">Departments</a>
-                <div class="collapse" id="Departments"> <a class="dropdown-item" href="#">M.Com</a> <a class="dropdown-item" href="#">M.SC</a> <a class="dropdown-item" href="#">B.A ENGLISH</a> <a class="dropdown-item" href="#">B.C.A</a> <a class="dropdown-item" href="#">B.S.C</a> <a class="dropdown-item" href="#">B.Com</a> </div>
-              <a class="nav-link" href="#">Admission</a>
-          </div>
-        </li>
-        <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">Amenities</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">Activities</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a> </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg bg-snct">
+    <div class="container"> <a class="navbar-brand" href="#"><img src="images/logo.png" width="915" height="229" alt="Sree Narayana College of Technology"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#snctnavlist" aria-controls="snctnavlist" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="snctnavlist">
+        <ul class="navbar-nav mr-auto w-100">
+          <li class="nav-item active"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#home">Home <span class="fas fa-angle-down"></span><span class="sr-only">(current)</span></a>
+            <div id="home" class="collapse"> <a class="dropdown-item collapsed" href="#" data-toggle="collapse" data-target="#Departments">Departments <span class="fas fa-angle-down"></span></a>
+              <div class="collapse" id="Departments"> <a class="dropdown-item" href="#">M.Com</a> <a class="dropdown-item" href="#">M.SC</a> <a class="dropdown-item" href="#">B.A ENGLISH</a> <a class="dropdown-item" href="#">B.C.A</a> <a class="dropdown-item" href="#">B.S.C</a> <a class="dropdown-item" href="#">B.Com</a> </div>
+              <a class="dropdown-item" href="#">Admission</a> </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#about">About Us <span class="fas fa-angle-down"></span></a>
+            <div id="about" class="collapse"> <a class="dropdown-item" href="#">Faculties</a> <a class="dropdown-item" href="#">Management</a> <a class="dropdown-item" href="#">Staff</a> <a class="dropdown-item" href="#">Committee</a> </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#amenities">Amenities <span class="fas fa-angle-down"></span></a>
+            <div id="amenities" class="collapse"> <a class="dropdown-item" href="#">Our Labs</a> <a class="dropdown-item" href="#">Transportation</a> <a class="dropdown-item" href="#">Hostel</a> <a class="dropdown-item" href="#">e-Learning Class Room</a> <a class="dropdown-item" href="#">Anti-Ragging</a> <a class="dropdown-item" href="#">General Discipline</a> </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#activities">Activities <span class="fas fa-angle-down"></span></a>
+            <div id="activities" class="collapse"> <a class="dropdown-item" href="#">Gallery</a> <a class="dropdown-item" href="#">Sports</a> </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a> </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
@@ -55,7 +64,7 @@
   <br>
   <div class="row">
     <div class="col-md-4">
-      <div class="card"> 
+      <div class="card"> <img class="card-img-top" src="images/card-img.png" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">Card title</h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -84,7 +93,7 @@
       </div>
     </div>
     <div class="col-md-4">
-      <div class="card"> 
+      <div class="card"> <img class="card-img-top" src="images/card-img.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some text to build on the card's content.</p>

@@ -95,6 +95,12 @@ body{
         .container{
             max-width: 95%; 
         }
+		.row{
+			margin: 0 calc(-1.5em);
+		}
+		[class*="col-"]{
+			padding: 0 calc(1.5em);
+		}
         section{
             .container{
                 max-width: 84.507%;
@@ -269,7 +275,8 @@ body{
             line-height: 100%;
         }
         #snct_fullscreen{
-            height: 81vh;
+            min-height: 81vh;
+			padding: 5em 0em;
             @include BGcenter;
             position: relative;
             &:before{

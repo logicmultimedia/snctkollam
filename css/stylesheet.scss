@@ -359,8 +359,73 @@ body{
                     font-weight: 700; 
                 }
             }
+            .container-fluid{
+                padding: calc(11.3em/2) 5em 0;
+            }
+            .snct_secn_video_banner{
+                display: block;
+                @include BGcenterfix;
+                position: relative;
+                padding: 1.5em;
+                &:before{
+                    content: "";
+                    display: block;
+                    @include absolute; 
+                    background-color: rgba(104,226,189,61%);
+                    opacity: 0.6;
+                }
+                .snct_secn_video{
+                    min-height: 300px;
+                    border: 1px solid #dadada;
+                    padding: 1em;
+                    .btn{
+                        font-size: 180%;
+                        color: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100px;
+                        height: 100px;
+                        line-height: 80px;
+                        color: #ffffff;
+                        background-color: rgba(255,255,255,0.25);
+                        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);    
+                        border-radius: 50%;
+                        transition: all .4s ease;
+                        position: relative;
+                        &:after{
+                            content: " ";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            color: red;
+                            border-radius: 50%;
+                            animation-delay: .3s;
+                            box-shadow: 0 0 0 0 currentColor;
+                            animation: button-ripple 3s infinite;
+                            opacity: .6;
+                            z-index: -1;
+                        }
+                        &:hover, &:focus{
+                            color: #8E44AD;
+                            background-color: #ffffff;
+                        }
+                    }
+                }
+            }
         }
+    } 
+}
+//Animations
+@keyframes button-ripple {
+    70% {
+        box-shadow: 0 0 0 var(--glow-size,15px) currentColor;
+        opacity: 0;
+    }
+    100% {
+        box-shadow: 0 0 0 0 currentColor;
+        opacity: 0;
     }
 }
-
-

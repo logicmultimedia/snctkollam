@@ -14,6 +14,8 @@
 <link href="css/stylesheet.css" rel="stylesheet">
 </head>
 <body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script>
 <header>
   <nav class="navbar">
     <div class="container">
@@ -24,23 +26,25 @@
     </div>
   </nav>
   <nav class="navbar navbar-expand-lg bg-snct">
-    <div class="container"> <a class="navbar-brand" href="#"><img src="images/logo.png" width="915" height="229" alt="Sree Narayana College of Technology"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#snctnavlist" aria-controls="snctnavlist" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="container">
+      <div class="navbar-brand-flex"> <a class="navbar-brand" href="#"><img src="images/logo.png" width="1223" height="229" alt="Sree Narayana College of Technology"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#snctnavlist" aria-controls="snctnavlist" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
+      </div>
       <div class="collapse navbar-collapse" id="snctnavlist">
         <ul class="navbar-nav mr-auto w-100">
           <li class="nav-item active"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#home">Home <span class="fas fa-angle-down"></span><span class="sr-only">(current)</span></a>
-            <div id="home" class="collapse"> <a class="dropdown-item collapsed" href="#" data-toggle="collapse" data-target="#Departments">Departments <span class="fas fa-angle-down"></span></a>
+            <div id="home" class="collapse" data-parent="#snctnavlist"> <a class="dropdown-item collapsed" href="#" data-toggle="collapse" data-target="#Departments">Departments <span class="fas fa-angle-down"></span></a>
               <div class="collapse" id="Departments"> <a class="dropdown-item" href="#">M.Com</a> <a class="dropdown-item" href="#">M.SC</a> <a class="dropdown-item" href="#">B.A ENGLISH</a> <a class="dropdown-item" href="#">B.C.A</a> <a class="dropdown-item" href="#">B.S.C</a> <a class="dropdown-item" href="#">B.Com</a> </div>
               <a class="dropdown-item" href="#">Admission</a> </div>
           </li>
           <li class="nav-item"> <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#about">About Us <span class="fas fa-angle-down"></span></a>
-            <div id="about" class="collapse"> <a class="dropdown-item" href="#">Faculties</a> <a class="dropdown-item" href="#">Management</a> <a class="dropdown-item" href="#">Staff</a> <a class="dropdown-item" href="#">Committee</a> </div>
+            <div id="about" class="collapse" data-parent="#snctnavlist"> <a class="dropdown-item" href="#">Faculties</a> <a class="dropdown-item" href="#">Management</a> <a class="dropdown-item" href="#">Staff</a> <a class="dropdown-item" href="#">Committee</a> </div>
           </li>
           <li class="nav-item"> <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#amenities">Amenities <span class="fas fa-angle-down"></span></a>
-            <div id="amenities" class="collapse"> <a class="dropdown-item" href="#">Our Labs</a> <a class="dropdown-item" href="#">Transportation</a> <a class="dropdown-item" href="#">Hostel</a> <a class="dropdown-item" href="#">e-Learning Class Room</a> <a class="dropdown-item" href="#">Anti-Ragging</a> <a class="dropdown-item" href="#">General Discipline</a> </div>
+            <div id="amenities" class="collapse" data-parent="#snctnavlist"> <a class="dropdown-item" href="#">Our Labs</a> <a class="dropdown-item" href="#">Transportation</a> <a class="dropdown-item" href="#">Hostel</a> <a class="dropdown-item" href="#">e-Learning Class Room</a> <a class="dropdown-item" href="#">Anti-Ragging</a> <a class="dropdown-item" href="#">General Discipline</a> </div>
           </li>
           <li class="nav-item"> <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#activities">Activities <span class="fas fa-angle-down"></span></a>
-            <div id="activities" class="collapse"> <a class="dropdown-item" href="#">Gallery</a> <a class="dropdown-item" href="#">Sports</a> </div>
+            <div id="activities" class="collapse" data-parent="#snctnavlist"> <a class="dropdown-item" href="#">Gallery</a> <a class="dropdown-item" href="#">Sports</a> </div>
           </li>
           <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a> </li>
         </ul>
@@ -48,107 +52,21 @@
     </div>
   </nav>
 </header>
-<div class="jumbotron jumbotron-fluid text-center">
-  <h1 class="display-4">Bootstrap with Dreamweaver</h1>
-  <p class="lead">Easily build your page using the Bootstrap components from the Insert panel.</p>
-  <hr class="my-4">
-  <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <p class="lead"> <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> </p>
-</div>
-<div class="container">
-  <div class="row text-center">
-    <div class="col-lg-6 offset-lg-3">Click outside the blue container to select this <strong>row</strong>. Columns are always contained within a row. <strong>Rows are indicated by a dashed grey line and rounded corners</strong>. </div>
-  </div>
-  <br>
-  <hr>
-  <br>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card"> <img class="card-img-top" src="images/card-img.png" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <br>
-          <br>
-          <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+<main>
+  <section id="snct_fullscreen" class="d-flex align-items-center" style="background-image: url('images/Sree-Narayana-College-of-technology.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-8 col-xl-7">
+          <h1>WELCOME TO S.N.C.T</h1>
+          <p class="text-heading">Securing A Brighter Future Through Education</p>
+          <a href="#" class="btn btn-primary">Apply Now</a> </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a> <a href="#" class="card-link">Another link</a> </div>
-      </div>
-      <br>
-      <br/>
-      <div class="card">
-        <div class="card-header"> Featured </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card"> <img class="card-img-top" src="images/card-img.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some text to build on the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-        </ul>
-        <div class="card-body"> <a href="#" class="card-link">Card link</a> <a href="#" class="card-link">Another link</a> </div>
-      </div>
-    </div>
-  </div>
-  <br/>
-  <br/>
-  <div class="row">
-    <div class=" col-md-4"> Click here to select this<strong> column.</strong> Always place your content within a column. Columns are indicated by a dashed blue line. </div>
-    <div class="col-md-4 "> You can <strong>resize a column</strong> using the handle on the right. Drag it to increase or reduce the number of columns.</div>
-    <div class="col-md-4 "> You can <strong>offset a column</strong> using the handle on the left. Drag it to increase or reduce the offset. </div>
-  </div>
-  <br/>
-  <br/>
-  <div class="row">
-    <div class="col-md-6 text-center">
-      <div class="card">
-        <div class="card-body">
-          <h3>Adding <strong>Buttons</strong></h3>
-          <p>Quickly add buttons to your page by using the button component in the insert panel. </p>
-          <button type="button" class="btn btn-info btn-md">Info Button</button>
-          <button type="button" class="btn btn-success btn-md">Success Button</button>
-        </div>
-      </div>
-    </div>
-    <div class="text-center col-md-6">
-      <div class="card">
-        <div class="card-body">
-          <h3>Adding <strong>Badges</strong></h3>
-          <p>Using the insert panel, add badge to your page by using the badge component.</p>
-          <span class="badge badge-info">Info Badge</span> <span class="badge badge-danger">Danger Badge</span> </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <hr>
-  <div class="row">
-    <div class="text-center col-lg-6 offset-lg-3">
-      <h4>Footer </h4>
-      <p>Copyright &copy; 2021 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
-    </div>
-  </div>
-</div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.4.1.min.js"></script> 
-
+  </section>
+</main>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/popper.min.js"></script> 
-<script src="js/bootstrap-4.4.1.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script> 
+<script src="js/snct-scripts.js"></script>
 </body>
 </html>

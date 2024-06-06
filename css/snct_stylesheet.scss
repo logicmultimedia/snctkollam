@@ -91,6 +91,7 @@
 body{
     font-family: "Roboto", sans-serif;
     font-size: 10px;
+	color: #727272;
     font-weight: 400;
     font-style: normal;
     @media (min-width: 1601px){
@@ -399,7 +400,7 @@ body{
                 padding: 0em 2em 13em;
                 &:before{
                     content: "";
-                    background-color: #401F4E;
+                    background-color: #8E44AD;
                     opacity: 0.9;
                     @include absolute;
                     z-index: 1;
@@ -408,6 +409,11 @@ body{
                     position: relative;
                     padding: 5em 2em;
                     z-index: 2;
+					hr{
+						display: block;
+						background: #fff;
+						height: 0.3em;
+					}
                 }
                 h1, h2, h3, p, li{
                     color: #ffffff;
@@ -415,10 +421,6 @@ body{
                 @media (max-width:767px){
                     padding: 0em 2em;
                 }
-            }
-            .snct_secn_docs{
-                padding: 5em 5em 13em;
-                background-color: #F1F1F1;
             }
             h1, h2{
                 font-family: "Raleway", Sans-serif;
@@ -434,7 +436,7 @@ body{
                 font-size: 220%;
             }
             h3{
-                font-size: 150%;
+                font-size: 160%;
                 font-weight: 700;
             }
             ol, ul{
@@ -464,6 +466,15 @@ body{
                         @include linkbtnwhite;
                     }
                 }
+            }
+			.snct_secn_docs{
+                padding: 5em 5em 13em;
+                background-color: #F1F1F1;
+				.snct_secn{
+					h2{
+						color: #161616;
+					}
+				}
             }
         }
         #snct_about{

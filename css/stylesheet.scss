@@ -388,6 +388,85 @@ body{
                 }
             }
         }
+        section.snctdocs{
+            background-color: #F1F1F1;
+            padding: 0em;
+            .snct_secn_spl{
+                min-height: 100%;
+                position: relative;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 0em 2em 13em;
+                &:before{
+                    content: "";
+                    background-color: #401F4E;
+                    opacity: 0.9;
+                    @include absolute;
+                    z-index: 1;
+                }
+                .snct_secn{
+                    position: relative;
+                    padding: 5em 2em;
+                    z-index: 2;
+                }
+                h1, h2, h3, p, li{
+                    color: #ffffff;
+                }
+                @media (max-width:767px){
+                    padding: 0em 2em;
+                }
+            }
+            .snct_secn_docs{
+                padding: 5em 5em 13em;
+                background-color: #F1F1F1;
+            }
+            h1, h2{
+                font-family: "Raleway", Sans-serif;
+                font-weight: 800;
+                color: #727272;
+                line-height: 1.2em;
+                letter-spacing: -1px;
+            }
+            h1{
+                font-size: 270%;
+            }
+            h2{
+                font-size: 220%;
+            }
+            h3{
+                font-size: 150%;
+                font-weight: 700;
+            }
+            ol, ul{
+                font-size: 160%;
+                font-weight: 400;
+                color: #727272;
+                li{
+                    font-size: 100%;
+                }
+            }
+            p{
+                font-size: 160%;
+                font-weight: 400;
+                color: #727272;
+                &.text-heading{
+                    font-family: "Raleway", sans-serif;
+                    font-size: 380%;
+                    font-weight: 700;
+                    color: #333333;
+                    line-height: normal;
+                }
+                .btn {
+                    font-size: 100%;
+                    &.btn-primary{
+                        font-weight: 700;
+                        padding: calc(15em/16) calc(30em/16);
+                        @include linkbtnwhite;
+                    }
+                }
+            }
+        }
         #snct_about{
             //video banner
             .container-fluid{

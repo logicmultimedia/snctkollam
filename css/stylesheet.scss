@@ -329,6 +329,17 @@ body{
                padding: calc(7em/13.6) calc(10em/13.6);
                margin-bottom: calc(18em/13.6);
                border: 1px solid rgba(0,0,0,0.45); 
+               &.text-heading{
+                   font-family: "Raleway", sans-serif;
+                   font-size: 380%;
+                   font-weight: 700;
+                   color: #333333;
+                   line-height: normal;
+                   border: none;
+                   letter-spacing: -2px;
+                   line-height: 100%;
+                   padding: 0;
+                }
             }
             p{
                 font-size: 160%;
@@ -594,7 +605,7 @@ body{
                 z-index: 2;
                 .vmarquee{
                     @include absolute;
-                    padding: 0 3em 0 1em;
+                    padding: 0 3em 0 0;
                     ol{
                         font-size: 170%;
                         font-weight: 400;
@@ -641,6 +652,95 @@ body{
                     display: block;
                     padding-bottom: calc(900%/16);
                     @include BGcenter;
+                }
+            }
+        }
+        
+        //Journey
+        #snct_journey{
+            h2{
+                &.text-heading{
+                    border: none;
+                }
+            }
+            .snct_secn_photo{
+                position: relative;
+                padding-right: 0;
+                .snct_secn_text{
+                    margin: 0 0 0 3em;
+                    position: absolute;
+                    top: 50%;
+                    padding: 3em;
+                    p{
+                        font-family: "Roboto", Sans-serif;
+                        font-size: 210%;
+                        font-weight: 500;
+                        color: #4A21CC;
+                        font-style: italic;
+                        line-height: 1.2em;
+                        display: block;
+                        text-align: center;
+                        @include textshadow1(#fff);
+                        .fa-solid{
+                            font-size: 400%;
+                            color: #ffffff;
+                            line-height: 100%;
+                            text-shadow: none;
+                            &.fa-quote-right{
+                                font-size: 100%;
+                            }
+                        }
+                    }
+                    @media (max-width: 991px){
+                        margin: -50% 0 0 3em;
+                        position: static;
+                    }
+                }
+            }
+            .snct_secn{
+                border-bottom: 4px solid #8E44AD;
+                box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.15);
+                transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+                padding: 6em;
+            }
+        }
+        
+        //Empowering
+        #snct_power{
+            padding: 5em 0em;
+            background-color: rgba(255, 255, 255, 0.35);
+            background-position: 50% 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            &:before{
+                content: "";
+                background-color: #401F4E;
+                opacity: 0.7;
+                transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+                display: block; 
+                @include absolute;
+                z-index: 1;
+            }
+            .container{
+                position: relative;
+                z-index: 2;
+                h2{
+                    font-size: 380%;
+                    font-weight: 700;
+                    letter-spacing: 0;
+                    margin-bottom: 30px;
+                    line-height: normal
+                }
+                p{
+                    .btn {
+                        font-size: 160%;
+                        &.btn-primary{
+                            font-weight: 700;
+                            padding: calc(15em/16) calc(30em/16);
+                            @include linkbtn; 
+                        }
+                    }
                 }
             }
         }

@@ -14,7 +14,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <!-- Bootstrap -->
 <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="../css/stylesheet.css" rel="stylesheet">
+<link href="../css/snct_stylesheet.css" rel="stylesheet">
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
@@ -274,7 +274,7 @@
   </section>
   <!-- TemplateEndEditable --></main>
   <footer id="snct_footer">
-    <div class="container p-0">
+    <div class="container">
       <div class="snct_footer_secn">
         <div class="row align-items-center">
             <div class="col-12 col-sm-12 col-md-6">

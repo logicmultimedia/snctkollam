@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Sree Narayana College of Technology</title>
-<!-- InstanceEndEditable -->
-<link href="images/snct_icon.ico" rel="icon" type="image/x-icon">
+<!-- TemplateEndEditable -->
+<link href="../images/snct_icon.ico" rel="icon" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <!-- Bootstrap -->
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="css/stylesheet.css" rel="stylesheet">
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="../css/stylesheet.css" rel="stylesheet">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 <body>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.4.1.min.js"></script>
+<script src="../js/jquery-3.4.1.min.js"></script>
 <div id="snct_wrapper">
   <header>
     <nav class="navbar">
@@ -33,7 +33,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-snct">
       <div class="container">
-        <div class="navbar-brand-flex"> <a class="navbar-brand" href="#"><img src="images/logo.png" width="1223" height="229" alt="Sree Narayana College of Technology"></a>
+        <div class="navbar-brand-flex"> <a class="navbar-brand" href="#"><img src="../images/logo.png" width="1223" height="229" alt="Sree Narayana College of Technology"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#snctnavlist" aria-controls="snctnavlist" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
         </div>
         <div class="collapse navbar-collapse" id="snctnavlist">
@@ -58,8 +58,8 @@
       </div>
     </nav>
   </header>
-  <main><!-- InstanceBeginEditable name="EditRegion1" -->
-  <section id="snct_fullscreen" class="d-flex align-items-center" style="background-image: url('images/Sree-Narayana-College-of-technology.jpg')">
+  <main><!-- TemplateBeginEditable name="EditRegion1" -->
+  <section id="snct_fullscreen" class="d-flex align-items-center" style="background-image: url('../images/Sree-Narayana-College-of-technology.jpg')">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8">
@@ -82,7 +82,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 text-right">
-          <div class="snct_secn_photo"> <img src="images/Sree-Narayana-College-of-technology-front.jpg" width="2000" height="1200" alt="Sree Narayana College of Technology, Front view"></div>
+          <div class="snct_secn_photo"> <img src="../images/Sree-Narayana-College-of-technology-front.jpg" width="2000" height="1200" alt="Sree Narayana College of Technology, Front view"></div>
           <div class="col-8 col-sm-6 col-md-8 col-lg-6 d-inline-block">
             <div class="snct_secn_spl">
               <h3>Established since 2003</h3>
@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="snct_secn_video_banner" style="background-image: url('images/Sree-Narayana-College-of-technology-front.jpg')">
+      <div class="snct_secn_video_banner" style="background-image: url('../images/Sree-Narayana-College-of-technology-front.jpg')">
         <div class="snct_secn_video d-flex justify-content-center align-items-center">
           <p><a href="#youTube" class="btn"><span class="fa-brands fa-youtube"></span></a></p>
         </div>
@@ -169,7 +169,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 h-auto">
-          <div class="snct_secn_photo"> <img src="images/Sree-Narayana-College-of-technology-library.jpg" width="1024" height="614" alt="Library, Sree Narayana College of Technology"></div>
+          <div class="snct_secn_photo"> <img src="../images/Sree-Narayana-College-of-technology-library.jpg" width="1024" height="614" alt="Library, Sree Narayana College of Technology"></div>
         </div>
       </div>
       <div class="row mt-md-5 align-items-center">
@@ -180,7 +180,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 h-auto">
-          <div class="snct_secn_photo"> <img src="images/Sree-Narayana-College-of-technology-lab.jpg" width="1024" height="614" alt="Laboratory, Sree Narayana College of Technology"></div>
+          <div class="snct_secn_photo"> <img src="../images/Sree-Narayana-College-of-technology-lab.jpg" width="1024" height="614" alt="Laboratory, Sree Narayana College of Technology"></div>
         </div>
       </div>
     </div>
@@ -196,7 +196,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 text-right">
-          <div class="snct_secn_photo"> <img src="images/principal-SNCT.jpeg" width="697" height="487" alt="Dr. Anitha Sankar C, Principal, Sree Narayana College of Technology"></div>
+          <div class="snct_secn_photo"> <img src="../images/principal-SNCT.jpeg" width="697" height="487" alt="Dr. Anitha Sankar C, Principal, Sree Narayana College of Technology"></div>
           <div class="col-8 col-sm-6 col-md-8 col-lg-6 d-inline-block">
             <div class="snct_secn_spl">
               <p>&#8220;What makes a child gifted and talented may not always be good grades in school, but a different way of looking at the world and learning.&#8221;</p>
@@ -229,16 +229,16 @@
     </div>
     <div class="snct_slider">
       <div class="snct_slides">
-        <div class="snct_slide" style="background-image: url('images/gallery/1.jpg')"></div>
+        <div class="snct_slide" style="background-image: url('../images/gallery/1.jpg')"></div>
       </div>
       <div class="snct_slides">
-        <div class="snct_slide" style="background-image: url('images/gallery/2.jpg')"></div>
+        <div class="snct_slide" style="background-image: url('../images/gallery/2.jpg')"></div>
       </div>
       <div class="snct_slides">
-        <div class="snct_slide" style="background-image: url('images/gallery/3.jpeg')"></div>
+        <div class="snct_slide" style="background-image: url('../images/gallery/3.jpeg')"></div>
       </div>
       <div class="snct_slides">
-        <div class="snct_slide" style="background-image: url('images/gallery/4.jpg')"></div>
+        <div class="snct_slide" style="background-image: url('../images/gallery/4.jpg')"></div>
       </div>
     </div>
   </section>
@@ -252,7 +252,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-7">
-          <div class="snct_secn_photo"> <img src="images/Sree-Narayana-College-of-technology-lab.jpg" width="1024" height="614" alt="Laboratory, SN College of Technology">
+          <div class="snct_secn_photo"> <img src="../images/Sree-Narayana-College-of-technology-lab.jpg" width="1024" height="614" alt="Laboratory, SN College of Technology">
             <div class="snct_secn_text">
               <p><i class="fa-solid fa-quote-left"></i> Discover hands-on learning in our modern biotech lab and unleash creativity in our state-of–the-art computer lab, shaping your academic journey with practical experiences. <i class="fa-solid fa-quote-right"></i></p>
             </div>
@@ -261,7 +261,7 @@
       </div>
     </div>
   </section>
-  <section id="snct_power" class="d-flex align-items-center" style="background-image: url('images/Sree-Narayana-College-of-technology.jpg')">
+  <section id="snct_power" class="d-flex align-items-center" style="background-image: url('../images/Sree-Narayana-College-of-technology.jpg')">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -272,7 +272,7 @@
       </div>
     </div>
   </section>
-  <!-- InstanceEndEditable --></main>
+  <!-- TemplateEndEditable --></main>
   <footer id="snct_footer">
     <div class="container p-0">
       <div class="snct_footer_secn">
@@ -297,12 +297,12 @@
   <a href="#" id="gotop" class="btn"><i class="fa-solid fa-chevron-up"></i></a>
 </div>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<!-- InstanceBeginEditable name="thirdpartyjsPlugins" -->
-<!-- InstanceEndEditable --> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap-4.4.1.js"></script> 
-<script src="js/snct-scripts.js"></script>
-<!-- InstanceBeginEditable name="jScripts" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="thirdpartyjsPlugins" -->
+<!-- TemplateEndEditable --> 
+<script src="../js/popper.min.js"></script> 
+<script src="../js/bootstrap-4.4.1.js"></script> 
+<script src="../js/snct-scripts.js"></script>
+<!-- TemplateBeginEditable name="jScripts" -->
+<!-- TemplateEndEditable -->
 </body>
-<!-- InstanceEnd --></html>
+</html>

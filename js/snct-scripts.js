@@ -48,4 +48,12 @@ $(function () {
       });
     });
   }
+  if ($("#gotop").length > 0) {
+    $("#gotop").click(function () {
+      $('html,body').animate({
+        scrollTop: 0
+      }, 'slow');
+      return false;
+    });
+  }
 });

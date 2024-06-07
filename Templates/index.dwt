@@ -14,7 +14,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <!-- Bootstrap -->
 <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="../css/snct_stylesheet.css" rel="stylesheet">
+<link href="../css/stylesheet.css" rel="stylesheet">
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
@@ -41,7 +41,7 @@
             <li class="nav-item active"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#home">Home <span class="fas fa-angle-down"></span><span class="sr-only">(current)</span></a>
               <div id="home" class="collapse" data-parent="#snctnavlist"> <a class="dropdown-item collapsed" href="#" data-toggle="collapse" data-target="#Departments">Departments <span class="fas fa-angle-down"></span></a>
                 <div class="collapse" id="Departments"> <a class="dropdown-item" href="m-com.html">M.Com</a> <a class="dropdown-item" href="m-com.html">M.SC</a> <a class="dropdown-item" href="m-com.html">B.A ENGLISH</a> <a class="dropdown-item" href="m-com.html">B.C.A</a> <a class="dropdown-item" href="m-com.html">B.S.C</a> <a class="dropdown-item" href="m-com.html">B.Com</a> </div>
-                <a class="dropdown-item" href="#">Admission</a> </div>
+                <a class="dropdown-item" href="../admissions.html">Admission</a> </div>
             </li>
             <li class="nav-item"> <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#about">About Us <span class="fas fa-angle-down"></span></a>
               <div id="about" class="collapse" data-parent="#snctnavlist"> <a class="dropdown-item" href="#">Faculties</a> <a class="dropdown-item" href="#">Management</a> <a class="dropdown-item" href="#">Staff</a> <a class="dropdown-item" href="#">Committee</a> </div>

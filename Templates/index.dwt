@@ -33,7 +33,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-snct">
       <div class="container">
-        <div class="navbar-brand-flex"> <a class="navbar-brand" href="#"><img src="../images/logo.png" width="1223" height="229" alt="Sree Narayana College of Technology"></a>
+        <div class="navbar-brand-flex"> <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" width="1223" height="229" alt="Sree Narayana College of Technology"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#snctnavlist" aria-controls="snctnavlist" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
         </div>
         <div class="collapse navbar-collapse" id="snctnavlist">

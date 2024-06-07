@@ -27,7 +27,7 @@ $(function () {
             }
           },
           {
-            breakpoint: 425,
+            breakpoint: 426,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,

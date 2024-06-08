@@ -15,7 +15,8 @@ $(function () {
         centerMode: true,
         nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
         prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
-        autoplay: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
         responsive: [{
             breakpoint: 1023,
             settings: {

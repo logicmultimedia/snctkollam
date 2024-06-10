@@ -1015,6 +1015,10 @@ body{
                 .vmarquee{
                     @include absolute;
                     padding: 0 3em 0 0;
+					h2{
+						font-size: 188%;
+						margin-left: 1em;
+					}
                     ol{
                         font-size: 170%;
                         font-weight: 400;

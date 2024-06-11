@@ -1074,6 +1074,17 @@ body{
                     display: block;
                     padding-bottom: calc(900%/16);
                     @include BGcenter;
+					position: relative;
+					.captions{
+						position: absolute;
+						left: 0;
+						top: auto;
+						right: 0;
+						bottom: 2em;
+						color: #f1f1f1;
+						text-align: center;
+						text-shadow: 0 0 0.5em #000, 0 0 0.5em #000, 0 0 0.5em #000, 0 0 0.5em #000, 0 0 0.5em #000;
+					}
                 }
             }
         }
@@ -1253,9 +1264,18 @@ body{
         p{
             font-size: 130%;
             line-height: 24px;
-            padding: 2em;
+			margin-bottom: 0.5em;
+			&:last-child{
+				margin-bottom: 0;
+			}
+			a{
+				color: #ffffff;
+			}
         }
     }
+	.copyrights{
+		padding: 2em;
+	}
     #gotop{
         font-size: 150%;
         color: #ffffff;
